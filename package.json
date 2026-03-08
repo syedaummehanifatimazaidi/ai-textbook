@@ -1,5 +1,46 @@
 {
+  "name": "robotics-ai-textbook-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
   "dependencies": {
-    "prism-react-renderer": "^2.4.1"
+    "@docusaurus/core": "^3.0.0",
+    "@docusaurus/preset-classic": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.2",
+    "zustand": "^4.4.0",
+    "@radix-ui/react-dialog": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.0.0",
+    "marked": "^11.1.1",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.1"
+  },
+  "devDependencies": {
+    "@docusaurus/plugin-content-docs": "^3.0.0",
+    "@docusaurus/plugin-content-blog": "^3.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "prettier": "^3.0.1",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
   }
 }
