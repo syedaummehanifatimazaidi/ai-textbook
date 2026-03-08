@@ -1,0 +1,47 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.*.secret
+
+# Dependencies
+node_modules/
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Build outputs
+frontend/build
+frontend/out
+backend/.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
+*.pyc
+.mypy_cache/
+
+# Database
+*.db
+*.sqlite3
+
+# Optional packages
+.env.production.local
+.env.production
+
+# Temporary files
+*.tmp
+temp/
